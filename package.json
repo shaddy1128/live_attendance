@@ -1,0 +1,27 @@
+{
+  "name": "live-attendance-monitoring-system",
+  "version": "1.0.0",
+  "description": "MCA Capstone Project: Live AI Face Biometric Attendance Monitoring System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "mca-project",
+    "face-recognition",
+    "attendance-system",
+    "computer-vision",
+    "deep-learning",
+    "sqlite"
+  ],
+  "author": "Mohd. Shad",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@vladmandic/face-api": "^1.7.15",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
